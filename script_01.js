@@ -73,53 +73,68 @@
 
 /****** Fallunterscheidung / SWITCH|CASE 1 ******/
 
-const firstName = "Jane";
-let job; 
+// const firstName = "Jane";
+// let job; 
 
-// job = "driver";      // .. fährt TAXI! / UBER
-job = "diver";       // .. taucht im Rhein! 
-// job = "researcher"   // .. untersucht den Dschungel! 
-// job = "gettinglost"  //  .. lernt Tarzan kennen!
-// job = "pilot";      // .. macht etwas anderes! --> default
-job = "teacher";    // .. unterrichtet!
-// job = "instructor"; // .. unterrichtet!
+// // job = "driver";      // .. fährt TAXI! / UBER
+// job = "diver";       // .. taucht im Rhein! 
+// // job = "researcher"   // .. untersucht den Dschungel! 
+// // job = "gettinglost"  //  .. lernt Tarzan kennen!
+// // job = "pilot";      // .. macht etwas anderes! --> default
+// job = "teacher";    // .. unterrichtet!
+// // job = "instructor"; // .. unterrichtet!
 
 
 
-switch (job)
-{
+// switch (job)
+// {
 
-    case "driver": // ( == )
-        console.log(firstName + " fährt TAXI!")
-        break;
+//     case "driver": // ( == )
+//         console.log(firstName + " fährt TAXI!")
+//         break;
         
-    case "diver": // 
-        console.log(firstName + " tauch im Rhein!")
-        break;   
+//     case "diver": // 
+//         console.log(firstName + " tauch im Rhein!")
+//         break;   
         
-    case "researcher": // 
-        console.log(firstName + " untersucht den Dschungel")
-        break; 
+//     case "researcher": // 
+//         console.log(firstName + " untersucht den Dschungel")
+//         break; 
 
-    case "teacher": //  ( == )
-    case "instructor": // ( == )    
-        console.log(firstName + " unterrichtet")
-        break;  
+//     case "teacher": //  ( == )
+//     case "instructor": // ( == )    
+//         console.log(firstName + " unterrichtet")
+//         break;  
     
-    case "pilot": // 
-        console.log(firstName + " macht etwas anderes!")
-        break;
+//     case "pilot": // 
+//         console.log(firstName + " macht etwas anderes!")
+//         break;
     
-    case "gettinglost": // 
-        console.log(firstName + " lernt Tarzan kennen!")
-        break;  
+//     case "gettinglost": // 
+//         console.log(firstName + " lernt Tarzan kennen!")
+//         break;  
         
-      default:
-        console.log(firstName + " macht was anderes!")
-        break;
-}
+//       default:
+//         console.log(firstName + " macht was anderes!")
+//         break;
+// }
 /********  Fallunterscheidung / SWITCH|CASE 2 *******/
 
+const cond = false;
+const a = 2;
+
+switch (cond) 
+{
+    case (a==1):
+        console.log("a ist gleich 1!");
+        break;
+    case (a==2):
+        console.log("a ist gleich 2!");
+        break;
+    default:
+        console.log("a hat einen anderen Wert");
+        break;
+}
 
 
 
